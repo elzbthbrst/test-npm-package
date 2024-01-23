@@ -1,0 +1,14 @@
+{
+    "name": "@elzbthbrst/test-npm-package",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib",
+    "types": "lib",
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
