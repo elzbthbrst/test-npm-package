@@ -1,1 +1,2 @@
-export const add = (a: number, b: number) => a + b;
+export const add = (...num: number[]): number =>
+  num.reduce((el, acc) => (acc += el), 0);
